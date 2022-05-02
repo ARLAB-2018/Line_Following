@@ -17,7 +17,7 @@ rosrun pluto_camera_sense plutocamera
 rosrun pluto_image_sun imagepronode
 
 #For line detection from the receiving frames
-rosrun Test_python Untitled-1.py
+Run Untitled-1.py in python IDE
 
 ```
 ** Note: For autonomous flight replace 'key_command.py' by 'drone_command.py' in the 'drone_comb.lauch' file
