@@ -1,8 +1,11 @@
 # Line_Following
 This Package can be used to make a PlutoX drone follow a path
 
-## Connecting PlutoX 
-Run package
+## Connecting PlutoX
+```
+rosrun plutodrone plutonode
+```
+##Run package
 ```
 # To get data from drone
 rosrun plutoserver data_via_rosservice.py
