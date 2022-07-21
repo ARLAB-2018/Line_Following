@@ -2,16 +2,13 @@
 This Package can be used to make a PlutoX drone follow a path
 
 ## Connecting PlutoX
-```
-rosrun plutodrone plutonode
-```
-##Run package
+Run package
 ```
 # To get data from drone
 rosrun plutoserver data_via_rosservice.py
 
 # plutonode for communication with drone
-rosrun plutodrone plutodrone
+rosrun plutodrone plutonode
 
 # To receive camera feed from drone
 rosrun pluto_camera_sense plutocamera
